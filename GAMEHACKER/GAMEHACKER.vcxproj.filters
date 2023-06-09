@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\INJECT">
+      <UniqueIdentifier>{3f5b0232-d454-4fdd-88ea-e8949c1e7e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\INJECT">
+      <UniqueIdentifier>{a0744027-73c4-45b7-9ff4-17d89fead674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\INJECTCHECK">
+      <UniqueIdentifier>{3096da49-3d11-4413-adfb-6d4259c884ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\INJECTCHECK">
+      <UniqueIdentifier>{b21a1fdd-8e91-4276-bf14-4a446e70a3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\RAN">
+      <UniqueIdentifier>{eeb5794f-74ec-4c94-bf14-72185e82dcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RAN">
+      <UniqueIdentifier>{e0a87f68-90cb-4278-b19a-3770c60dd8f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAMEHACKER.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMEHACKERDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndINJ.h">
+      <Filter>头文件\INJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndAddGame.h">
+      <Filter>头文件\INJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="INJCET.h">
+      <Filter>头文件\INJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndINC.h">
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndProcess.h">
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndModuleList.h">
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndModAnly.h">
+      <Filter>头文件\INJECTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndRAN.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndAddClass.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="COBJContext.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CMEMContext.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndEditMContext.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndAddFunction.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndAddParam.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CFUNContext.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+    <ClInclude Include="CParamContext.h">
+      <Filter>头文件\RAN</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GAMEHACKER.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMEHACKERDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndAddGame.cpp">
+      <Filter>源文件\INJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndINJ.cpp">
+      <Filter>源文件\INJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="INJCET.cpp">
+      <Filter>源文件\INJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndINC.cpp">
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndProcess.cpp">
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndModuleList.cpp">
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndModAnly.cpp">
+      <Filter>源文件\INJECTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndRAN.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndAddClass.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="COBJContext.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CMEMContext.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndEditMContext.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndAddFunction.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndAddParam.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CFUNContext.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+    <ClCompile Include="CParamContext.cpp">
+      <Filter>源文件\RAN</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GAMEHACKER.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GAMEHACKER.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GAMEHACKER.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\25366\Desktop\512x512.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Version.txt" />
+  </ItemGroup>
+</Project>
